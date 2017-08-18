@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30580C01F47150A00CE26BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580BF1F47150A00CE26BB /* main.m */; };
+		C30580C31F47150A00CE26BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580C21F47150A00CE26BB /* AppDelegate.m */; };
+		C30580C61F47150A00CE26BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580C51F47150A00CE26BB /* ViewController.m */; };
+		C30580C91F47150A00CE26BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30580C71F47150A00CE26BB /* Main.storyboard */; };
+		C30580CC1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C30580CA1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld */; };
+		C30580CE1F47150A00CE26BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30580CD1F47150A00CE26BB /* Assets.xcassets */; };
+		C30580D11F47150A00CE26BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30580CF1F47150A00CE26BB /* LaunchScreen.storyboard */; };
+		C30580DC1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580DB1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m */; };
+		C30580E71F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30580D81F47150A00CE26BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30580B31F47150A00CE26BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30580BA1F47150A00CE26BB;
+			remoteInfo = "ObjectiveC Material Design";
+		};
+		C30580E31F47150A00CE26BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30580B31F47150A00CE26BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30580BA1F47150A00CE26BB;
+			remoteInfo = "ObjectiveC Material Design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C30580BB1F47150A00CE26BB /* ObjectiveC Material Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC Material Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30580BF1F47150A00CE26BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C30580C11F47150A00CE26BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C30580C21F47150A00CE26BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C30580C41F47150A00CE26BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C30580C51F47150A00CE26BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C30580C81F47150A00CE26BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C30580CB1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectiveC_Material_Design.xcdatamodel; sourceTree = "<group>"; };
+		C30580CD1F47150A00CE26BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30580D01F47150A00CE26BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C30580D21F47150A00CE26BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30580D71F47150A00CE26BB /* ObjectiveC Material DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC Material DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30580DB1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_Material_DesignTests.m; sourceTree = "<group>"; };
+		C30580DD1F47150A00CE26BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30580E21F47150A00CE26BB /* ObjectiveC Material DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC Material DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_Material_DesignUITests.m; sourceTree = "<group>"; };
+		C30580E81F47150A00CE26BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30580B81F47150A00CE26BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580D41F47150A00CE26BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580DF1F47150A00CE26BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30580B21F47150A00CE26BB = {
+			isa = PBXGroup;
+			children = (
+				C30580BD1F47150A00CE26BB /* ObjectiveC Material Design */,
+				C30580DA1F47150A00CE26BB /* ObjectiveC Material DesignTests */,
+				C30580E51F47150A00CE26BB /* ObjectiveC Material DesignUITests */,
+				C30580BC1F47150A00CE26BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C30580BC1F47150A00CE26BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30580BB1F47150A00CE26BB /* ObjectiveC Material Design.app */,
+				C30580D71F47150A00CE26BB /* ObjectiveC Material DesignTests.xctest */,
+				C30580E21F47150A00CE26BB /* ObjectiveC Material DesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30580BD1F47150A00CE26BB /* ObjectiveC Material Design */ = {
+			isa = PBXGroup;
+			children = (
+				C30580C11F47150A00CE26BB /* AppDelegate.h */,
+				C30580C21F47150A00CE26BB /* AppDelegate.m */,
+				C30580C41F47150A00CE26BB /* ViewController.h */,
+				C30580C51F47150A00CE26BB /* ViewController.m */,
+				C30580C71F47150A00CE26BB /* Main.storyboard */,
+				C30580CD1F47150A00CE26BB /* Assets.xcassets */,
+				C30580CF1F47150A00CE26BB /* LaunchScreen.storyboard */,
+				C30580D21F47150A00CE26BB /* Info.plist */,
+				C30580CA1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld */,
+				C30580BE1F47150A00CE26BB /* Supporting Files */,
+			);
+			path = "ObjectiveC Material Design";
+			sourceTree = "<group>";
+		};
+		C30580BE1F47150A00CE26BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30580BF1F47150A00CE26BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C30580DA1F47150A00CE26BB /* ObjectiveC Material DesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				C30580DB1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m */,
+				C30580DD1F47150A00CE26BB /* Info.plist */,
+			);
+			path = "ObjectiveC Material DesignTests";
+			sourceTree = "<group>";
+		};
+		C30580E51F47150A00CE26BB /* ObjectiveC Material DesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */,
+				C30580E81F47150A00CE26BB /* Info.plist */,
+			);
+			path = "ObjectiveC Material DesignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30580BA1F47150A00CE26BB /* ObjectiveC Material Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30580EB1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material Design" */;
+			buildPhases = (
+				C30580B71F47150A00CE26BB /* Sources */,
+				C30580B81F47150A00CE26BB /* Frameworks */,
+				C30580B91F47150A00CE26BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC Material Design";
+			productName = "ObjectiveC Material Design";
+			productReference = C30580BB1F47150A00CE26BB /* ObjectiveC Material Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C30580D61F47150A00CE26BB /* ObjectiveC Material DesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30580EE1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignTests" */;
+			buildPhases = (
+				C30580D31F47150A00CE26BB /* Sources */,
+				C30580D41F47150A00CE26BB /* Frameworks */,
+				C30580D51F47150A00CE26BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30580D91F47150A00CE26BB /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC Material DesignTests";
+			productName = "ObjectiveC Material DesignTests";
+			productReference = C30580D71F47150A00CE26BB /* ObjectiveC Material DesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C30580E11F47150A00CE26BB /* ObjectiveC Material DesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30580F11F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignUITests" */;
+			buildPhases = (
+				C30580DE1F47150A00CE26BB /* Sources */,
+				C30580DF1F47150A00CE26BB /* Frameworks */,
+				C30580E01F47150A00CE26BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30580E41F47150A00CE26BB /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC Material DesignUITests";
+			productName = "ObjectiveC Material DesignUITests";
+			productReference = C30580E21F47150A00CE26BB /* ObjectiveC Material DesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30580B31F47150A00CE26BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lytestech;
+				TargetAttributes = {
+					C30580BA1F47150A00CE26BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C30580D61F47150A00CE26BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C30580BA1F47150A00CE26BB;
+					};
+					C30580E11F47150A00CE26BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C30580BA1F47150A00CE26BB;
+					};
+				};
+			};
+			buildConfigurationList = C30580B61F47150A00CE26BB /* Build configuration list for PBXProject "ObjectiveC Material Design" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C30580B21F47150A00CE26BB;
+			productRefGroup = C30580BC1F47150A00CE26BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30580BA1F47150A00CE26BB /* ObjectiveC Material Design */,
+				C30580D61F47150A00CE26BB /* ObjectiveC Material DesignTests */,
+				C30580E11F47150A00CE26BB /* ObjectiveC Material DesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30580B91F47150A00CE26BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30580D11F47150A00CE26BB /* LaunchScreen.storyboard in Resources */,
+				C30580CE1F47150A00CE26BB /* Assets.xcassets in Resources */,
+				C30580C91F47150A00CE26BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580D51F47150A00CE26BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580E01F47150A00CE26BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30580B71F47150A00CE26BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30580CC1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld in Sources */,
+				C30580C61F47150A00CE26BB /* ViewController.m in Sources */,
+				C30580C31F47150A00CE26BB /* AppDelegate.m in Sources */,
+				C30580C01F47150A00CE26BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580D31F47150A00CE26BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30580DC1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30580DE1F47150A00CE26BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30580E71F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30580D91F47150A00CE26BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30580BA1F47150A00CE26BB /* ObjectiveC Material Design */;
+			targetProxy = C30580D81F47150A00CE26BB /* PBXContainerItemProxy */;
+		};
+		C30580E41F47150A00CE26BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30580BA1F47150A00CE26BB /* ObjectiveC Material Design */;
+			targetProxy = C30580E31F47150A00CE26BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C30580C71F47150A00CE26BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30580C81F47150A00CE26BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C30580CF1F47150A00CE26BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30580D01F47150A00CE26BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C30580E91F47150A00CE26BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30580EA1F47150A00CE26BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C30580EC1F47150A00CE26BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjectiveC Material Design/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C30580ED1F47150A00CE26BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjectiveC Material Design/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C30580EF1F47150A00CE26BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjectiveC Material DesignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Material Design.app/ObjectiveC Material Design";
+			};
+			name = Debug;
+		};
+		C30580F01F47150A00CE26BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjectiveC Material DesignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Material Design.app/ObjectiveC Material Design";
+			};
+			name = Release;
+		};
+		C30580F21F47150A00CE26BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ObjectiveC Material DesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ObjectiveC Material Design";
+			};
+			name = Debug;
+		};
+		C30580F31F47150A00CE26BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ObjectiveC Material DesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ga.lytestech.ObjectiveC-Material-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ObjectiveC Material Design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30580B61F47150A00CE26BB /* Build configuration list for PBXProject "ObjectiveC Material Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30580E91F47150A00CE26BB /* Debug */,
+				C30580EA1F47150A00CE26BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30580EB1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30580EC1F47150A00CE26BB /* Debug */,
+				C30580ED1F47150A00CE26BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C30580EE1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30580EF1F47150A00CE26BB /* Debug */,
+				C30580F01F47150A00CE26BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C30580F11F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30580F21F47150A00CE26BB /* Debug */,
+				C30580F31F47150A00CE26BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C30580CA1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C30580CB1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodel */,
+			);
+			currentVersion = C30580CB1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodel */;
+			path = ObjectiveC_Material_Design.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C30580B31F47150A00CE26BB /* Project object */;
+}
