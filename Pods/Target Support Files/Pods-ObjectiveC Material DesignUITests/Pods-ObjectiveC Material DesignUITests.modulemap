@@ -1,0 +1,6 @@
+framework module Pods_ObjectiveC_Material_DesignUITests {
+  umbrella header "Pods-ObjectiveC Material DesignUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

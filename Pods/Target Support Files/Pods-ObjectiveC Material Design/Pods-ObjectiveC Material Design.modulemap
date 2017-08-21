@@ -1,0 +1,6 @@
+framework module Pods_ObjectiveC_Material_Design {
+  umbrella header "Pods-ObjectiveC Material Design-umbrella.h"
+
+  export *
+  module * { export * }
+}

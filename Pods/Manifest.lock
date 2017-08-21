@@ -1,0 +1,20 @@
+PODS:
+  - DownPicker (0.1.34)
+  - Material (2.9.3):
+    - Material/Core (= 2.9.3)
+  - Material/Core (2.9.3)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - DownPicker
+  - Material (~> 2.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  Material: 4af954f1417b3adb5e3113fe3df45473deabb7c6
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: a895c3db6bb183fe01bc6a1962c58109073c49c4
+
+COCOAPODS: 1.2.1

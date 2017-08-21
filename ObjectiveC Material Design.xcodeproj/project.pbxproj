@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1437C536909157FF98B4C9C0 /* Pods_ObjectiveC_Material_DesignUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460E9374261293E39092FA56 /* Pods_ObjectiveC_Material_DesignUITests.framework */; };
+		5FA443837EA2BF3F7DEC336B /* Pods_ObjectiveC_Material_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AF6B697F2E851C08B46CA6 /* Pods_ObjectiveC_Material_Design.framework */; };
+		6B88046982159A215DE7D4B9 /* Pods_ObjectiveC_Material_DesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1036FEDADDC418B4B37B595B /* Pods_ObjectiveC_Material_DesignTests.framework */; };
 		C30580C01F47150A00CE26BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580BF1F47150A00CE26BB /* main.m */; };
 		C30580C31F47150A00CE26BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580C21F47150A00CE26BB /* AppDelegate.m */; };
 		C30580C61F47150A00CE26BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580C51F47150A00CE26BB /* ViewController.m */; };
@@ -16,6 +19,9 @@
 		C30580D11F47150A00CE26BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30580CF1F47150A00CE26BB /* LaunchScreen.storyboard */; };
 		C30580DC1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580DB1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m */; };
 		C30580E71F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */; };
+		C30580F91F4723F100CE26BB /* gideon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30580F81F4723F100CE26BB /* gideon.jpg */; };
+		C332CD351F4AA6C900644507 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332CD341F4AA6C900644507 /* CoreLocation.framework */; };
+		C3A6E8DB1F4838060058EC46 /* DownPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3A3B5CD079DDE8C083481B /* Pods-ObjectiveC Material Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material Design.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material Design/Pods-ObjectiveC Material Design.release.xcconfig"; sourceTree = "<group>"; };
+		1036FEDADDC418B4B37B595B /* Pods_ObjectiveC_Material_DesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Material_DesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460E9374261293E39092FA56 /* Pods_ObjectiveC_Material_DesignUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Material_DesignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5465B1727BBDA74395D96783 /* Pods-ObjectiveC Material DesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material DesignTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material DesignTests/Pods-ObjectiveC Material DesignTests.release.xcconfig"; sourceTree = "<group>"; };
+		59AF6B697F2E851C08B46CA6 /* Pods_ObjectiveC_Material_Design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Material_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC968B75EFE3E4695E58C45 /* Pods-ObjectiveC Material DesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material DesignTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material DesignTests/Pods-ObjectiveC Material DesignTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2212E05E8119A5834B5B94 /* Pods-ObjectiveC Material Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material Design.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material Design/Pods-ObjectiveC Material Design.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD47A72D46BA0267127BF98 /* Pods-ObjectiveC Material DesignUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material DesignUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material DesignUITests/Pods-ObjectiveC Material DesignUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C30580BB1F47150A00CE26BB /* ObjectiveC Material Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC Material Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30580BF1F47150A00CE26BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C30580C11F47150A00CE26BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +67,11 @@
 		C30580E21F47150A00CE26BB /* ObjectiveC Material DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC Material DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_Material_DesignUITests.m; sourceTree = "<group>"; };
 		C30580E81F47150A00CE26BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30580F81F4723F100CE26BB /* gideon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gideon.jpg; sourceTree = "<group>"; };
+		C332CD341F4AA6C900644507 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C3A6E8D91F4838060058EC46 /* DownPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownPickerViewController.h; sourceTree = "<group>"; };
+		C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownPickerViewController.m; sourceTree = "<group>"; };
+		F96C8D684EB69100240C8E29 /* Pods-ObjectiveC Material DesignUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Material DesignUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC Material DesignUITests/Pods-ObjectiveC Material DesignUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C332CD351F4AA6C900644507 /* CoreLocation.framework in Frameworks */,
+				5FA443837EA2BF3F7DEC336B /* Pods_ObjectiveC_Material_Design.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B88046982159A215DE7D4B9 /* Pods_ObjectiveC_Material_DesignTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +96,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1437C536909157FF98B4C9C0 /* Pods_ObjectiveC_Material_DesignUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2826E8206FC08BB6CF7D8377 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A2212E05E8119A5834B5B94 /* Pods-ObjectiveC Material Design.debug.xcconfig */,
+				0A3A3B5CD079DDE8C083481B /* Pods-ObjectiveC Material Design.release.xcconfig */,
+				5DC968B75EFE3E4695E58C45 /* Pods-ObjectiveC Material DesignTests.debug.xcconfig */,
+				5465B1727BBDA74395D96783 /* Pods-ObjectiveC Material DesignTests.release.xcconfig */,
+				F96C8D684EB69100240C8E29 /* Pods-ObjectiveC Material DesignUITests.debug.xcconfig */,
+				7FD47A72D46BA0267127BF98 /* Pods-ObjectiveC Material DesignUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78735B8FF1F14C405A191B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C332CD341F4AA6C900644507 /* CoreLocation.framework */,
+				59AF6B697F2E851C08B46CA6 /* Pods_ObjectiveC_Material_Design.framework */,
+				1036FEDADDC418B4B37B595B /* Pods_ObjectiveC_Material_DesignTests.framework */,
+				460E9374261293E39092FA56 /* Pods_ObjectiveC_Material_DesignUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C30580B21F47150A00CE26BB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +134,8 @@
 				C30580DA1F47150A00CE26BB /* ObjectiveC Material DesignTests */,
 				C30580E51F47150A00CE26BB /* ObjectiveC Material DesignUITests */,
 				C30580BC1F47150A00CE26BB /* Products */,
+				2826E8206FC08BB6CF7D8377 /* Pods */,
+				78735B8FF1F14C405A191B95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +152,10 @@
 		C30580BD1F47150A00CE26BB /* ObjectiveC Material Design */ = {
 			isa = PBXGroup;
 			children = (
+				C30580F51F47233B00CE26BB /* Resources */,
+				C30580F41F471DE400CE26BB /* Controllers */,
 				C30580C11F47150A00CE26BB /* AppDelegate.h */,
 				C30580C21F47150A00CE26BB /* AppDelegate.m */,
-				C30580C41F47150A00CE26BB /* ViewController.h */,
-				C30580C51F47150A00CE26BB /* ViewController.m */,
 				C30580C71F47150A00CE26BB /* Main.storyboard */,
 				C30580CD1F47150A00CE26BB /* Assets.xcassets */,
 				C30580CF1F47150A00CE26BB /* LaunchScreen.storyboard */,
@@ -143,6 +192,25 @@
 			path = "ObjectiveC Material DesignUITests";
 			sourceTree = "<group>";
 		};
+		C30580F41F471DE400CE26BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C30580C41F47150A00CE26BB /* ViewController.h */,
+				C30580C51F47150A00CE26BB /* ViewController.m */,
+				C3A6E8D91F4838060058EC46 /* DownPickerViewController.h */,
+				C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C30580F51F47233B00CE26BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C30580F81F4723F100CE26BB /* gideon.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C30580EB1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material Design" */;
 			buildPhases = (
+				E8FD72C0508E2CE90FF33A89 /* [CP] Check Pods Manifest.lock */,
 				C30580B71F47150A00CE26BB /* Sources */,
 				C30580B81F47150A00CE26BB /* Frameworks */,
 				C30580B91F47150A00CE26BB /* Resources */,
+				6B712566EDDFD6B0D090ABAC /* [CP] Embed Pods Frameworks */,
+				3B4BB8233181BC925BE01CAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C30580EE1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignTests" */;
 			buildPhases = (
+				4F34E07828B84577ACC00160 /* [CP] Check Pods Manifest.lock */,
 				C30580D31F47150A00CE26BB /* Sources */,
 				C30580D41F47150A00CE26BB /* Frameworks */,
 				C30580D51F47150A00CE26BB /* Resources */,
+				01FE271C9397AB8D70B491EC /* [CP] Embed Pods Frameworks */,
+				9408C73C04BD2F2BE9DC0593 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C30580F11F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignUITests" */;
 			buildPhases = (
+				F3C554BC607F067B9FB4F9D0 /* [CP] Check Pods Manifest.lock */,
 				C30580DE1F47150A00CE26BB /* Sources */,
 				C30580DF1F47150A00CE26BB /* Frameworks */,
 				C30580E01F47150A00CE26BB /* Resources */,
+				27C96C996010D306F8528179 /* [CP] Embed Pods Frameworks */,
+				7263C51FDECE6365C7B87DA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +329,7 @@
 				C30580D11F47150A00CE26BB /* LaunchScreen.storyboard in Resources */,
 				C30580CE1F47150A00CE26BB /* Assets.xcassets in Resources */,
 				C30580C91F47150A00CE26BB /* Main.storyboard in Resources */,
+				C30580F91F4723F100CE26BB /* gideon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +349,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01FE271C9397AB8D70B491EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material DesignTests/Pods-ObjectiveC Material DesignTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C96C996010D306F8528179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material DesignUITests/Pods-ObjectiveC Material DesignUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4BB8233181BC925BE01CAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material Design/Pods-ObjectiveC Material Design-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F34E07828B84577ACC00160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B712566EDDFD6B0D090ABAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material Design/Pods-ObjectiveC Material Design-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7263C51FDECE6365C7B87DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material DesignUITests/Pods-ObjectiveC Material DesignUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9408C73C04BD2F2BE9DC0593 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC Material DesignTests/Pods-ObjectiveC Material DesignTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FD72C0508E2CE90FF33A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C554BC607F067B9FB4F9D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C30580B71F47150A00CE26BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,6 +495,7 @@
 				C30580CC1F47150A00CE26BB /* ObjectiveC_Material_Design.xcdatamodeld in Sources */,
 				C30580C61F47150A00CE26BB /* ViewController.m in Sources */,
 				C30580C31F47150A00CE26BB /* AppDelegate.m in Sources */,
+				C3A6E8DB1F4838060058EC46 /* DownPickerViewController.m in Sources */,
 				C30580C01F47150A00CE26BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +645,7 @@
 		};
 		C30580EC1F47150A00CE26BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2212E05E8119A5834B5B94 /* Pods-ObjectiveC Material Design.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ObjectiveC Material Design/Info.plist";
@@ -439,6 +657,7 @@
 		};
 		C30580ED1F47150A00CE26BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3A3B5CD079DDE8C083481B /* Pods-ObjectiveC Material Design.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ObjectiveC Material Design/Info.plist";
@@ -450,6 +669,7 @@
 		};
 		C30580EF1F47150A00CE26BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC968B75EFE3E4695E58C45 /* Pods-ObjectiveC Material DesignTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ObjectiveC Material DesignTests/Info.plist";
@@ -462,6 +682,7 @@
 		};
 		C30580F01F47150A00CE26BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5465B1727BBDA74395D96783 /* Pods-ObjectiveC Material DesignTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ObjectiveC Material DesignTests/Info.plist";
@@ -474,6 +695,7 @@
 		};
 		C30580F21F47150A00CE26BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96C8D684EB69100240C8E29 /* Pods-ObjectiveC Material DesignUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ObjectiveC Material DesignUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +707,7 @@
 		};
 		C30580F31F47150A00CE26BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD47A72D46BA0267127BF98 /* Pods-ObjectiveC Material DesignUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ObjectiveC Material DesignUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -513,6 +736,7 @@
 				C30580ED1F47150A00CE26BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C30580EE1F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +745,7 @@
 				C30580F01F47150A00CE26BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C30580F11F47150A00CE26BB /* Build configuration list for PBXNativeTarget "ObjectiveC Material DesignUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +754,7 @@
 				C30580F31F47150A00CE26BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
