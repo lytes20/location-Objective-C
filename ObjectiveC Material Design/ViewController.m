@@ -16,7 +16,12 @@
     CLLocationManager * locationManager;
     CLLocationCoordinate2D *userLocation;
     CLPlacemark *placeMark;
+    CLGeocoder *geoCoder;
+    
+    
 }
+@property (strong, nonatomic) DownPicker *areaPicker;
+@property (strong, nonatomic) DownPicker *supermarketPicker;
 
 @end
 
@@ -25,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    geoCoder = [[CLGeocoder alloc] init];
     locationManager = [[CLLocationManager alloc] init];
     [self initialiseLocationManager];
     
@@ -44,7 +50,8 @@
     
     NSMutableArray *mSupermarkets = [self getSuperMarkets];
     // bind yourTextField to DownPicker
-    self.downPicker = [[DownPicker alloc] initWithTextField:supermarkets withData:mSupermarkets];
+    
+    _supermarketPicker = [[DownPicker alloc] initWithTextField:supermarkets withData:mSupermarkets];
     
 }
 
@@ -52,7 +59,6 @@
     locationManager.delegate = self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
-        NSLog(@"I reach here");
         [locationManager requestWhenInUseAuthorization];
     }
     [locationManager startUpdatingLocation];
@@ -60,16 +66,46 @@
 
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations{
+    
+    TextField *area = [self.view viewWithTag:1];
     CLLocation *location = [locations lastObject];
     
-    // userLocation = CLLocationCoordinate2D(location.coordinate.latitude, location.coordinate.longitude);
+    [geoCoder reverseGeocodeLocation:location completionHandler:^(NSArray *placemarks, NSError *error) {
+        NSLog(@"I reach here");
+        if (error == nil && [placemarks count] > 0){
+            
+            NSString *userLat,*userLong;
+            placeMark = [placemarks lastObject];
+            userLat = [NSString stringWithFormat:@"%.8f",location.coordinate.latitude];
+            userLong= [NSString stringWithFormat:@"%.8f",location.coordinate.longitude];
+            NSLog(@"%@, %@", userLat, userLong);
+            
+            NSString *locatedAt = [[placeMark.addressDictionary valueForKey:@"FormattedAddressLines"] componentsJoinedByString:@", "];
+            NSString *Address = [[NSString alloc]initWithString:locatedAt];
+            NSLog(@"%@", Address);
+            NSString *town = [[NSString alloc]initWithString:placeMark.ISOcountryCode];
+            NSLog(@"%@", town);
+            NSString *Area = [[NSString alloc]initWithString:placeMark.locality];
+            NSString *Country = [[NSString alloc]initWithString:placeMark.country];
+            NSString *CountryArea = [NSString stringWithFormat:@"%@, %@", Area,Country];
+            NSLog(@"%@",CountryArea);
+            
+            NSMutableArray *mArea = [self createAreaArray];
+            [mArea addObject:Area];            
+            NSLog(@"&&&&&&&&&");
+            NSLog(@"&&&&&&&&&");
+            NSLog(@"&&&&&&&&&");
+            NSLog(@"My Array%@", mArea);
+            _areaPicker = [[DownPicker alloc] initWithTextField:area withData:mArea];
+        }
+    }];
     
-     NSString *userLat,*userLong;
+    [locationManager stopUpdatingLocation];
     
-    userLat = [NSString stringWithFormat:@"%.8f",location.coordinate.latitude];
-    userLong= [NSString stringWithFormat:@"%.8f",location.coordinate.longitude];
-    
-    NSLog(@"%@, %@", userLat, userLong);
+}
+
+-(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
+    NSLog(@"didFailWithError: %@", error);
 }
 - (void) viewDidAppear:(BOOL)animated{
     // [self customeProgressHud];
@@ -79,6 +115,10 @@
     
 }
 
+-(NSMutableArray*)createAreaArray{
+    NSMutableArray* areaArray = [[NSMutableArray alloc] init];
+    return areaArray;
+}
 
 -(NSMutableArray*)getSuperMarkets {
     // create the array of data
