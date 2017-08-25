@@ -20,6 +20,7 @@
 		C30580DC1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580DB1F47150A00CE26BB /* ObjectiveC_Material_DesignTests.m */; };
 		C30580E71F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */; };
 		C30580F91F4723F100CE26BB /* gideon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30580F81F4723F100CE26BB /* gideon.jpg */; };
+		C3156A4C1F4C1F370048E1B7 /* CategotyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3156A4B1F4C1F370048E1B7 /* CategotyViewController.m */; };
 		C332CD351F4AA6C900644507 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332CD341F4AA6C900644507 /* CoreLocation.framework */; };
 		C3A6E8DB1F4838060058EC46 /* DownPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		C30580E61F47150A00CE26BB /* ObjectiveC_Material_DesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_Material_DesignUITests.m; sourceTree = "<group>"; };
 		C30580E81F47150A00CE26BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C30580F81F4723F100CE26BB /* gideon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gideon.jpg; sourceTree = "<group>"; };
+		C3156A4A1F4C1F370048E1B7 /* CategotyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategotyViewController.h; sourceTree = "<group>"; };
+		C3156A4B1F4C1F370048E1B7 /* CategotyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategotyViewController.m; sourceTree = "<group>"; };
 		C332CD341F4AA6C900644507 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C3A6E8D91F4838060058EC46 /* DownPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownPickerViewController.h; sourceTree = "<group>"; };
 		C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownPickerViewController.m; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				C30580C51F47150A00CE26BB /* ViewController.m */,
 				C3A6E8D91F4838060058EC46 /* DownPickerViewController.h */,
 				C3A6E8DA1F4838060058EC46 /* DownPickerViewController.m */,
+				C3156A4A1F4C1F370048E1B7 /* CategotyViewController.h */,
+				C3156A4B1F4C1F370048E1B7 /* CategotyViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -496,6 +501,7 @@
 				C30580C61F47150A00CE26BB /* ViewController.m in Sources */,
 				C30580C31F47150A00CE26BB /* AppDelegate.m in Sources */,
 				C3A6E8DB1F4838060058EC46 /* DownPickerViewController.m in Sources */,
+				C3156A4C1F4C1F370048E1B7 /* CategotyViewController.m in Sources */,
 				C30580C01F47150A00CE26BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

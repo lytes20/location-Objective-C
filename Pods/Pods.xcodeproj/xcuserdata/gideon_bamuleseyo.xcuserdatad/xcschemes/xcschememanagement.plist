@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DownPicker-DownPicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,17 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>06F926838494050CEBB294860C3B2913</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>148B1145DB265B27E517BDC16DF29D6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5302B66DD3B6EABC5A3609BF41042B20</key>
+		<key>1ED8BE8BD6A53853974A60E1AC8B1019</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54EC05F2E9629A50B68AD0D14E8CBBA6</key>
+		<key>5302B66DD3B6EABC5A3609BF41042B20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,12 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E9B6EF7AF2B2004AFC2A2416CCBC2614</key>
+		<key>F9507E5D5CC7985813601CB54334396E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F9507E5D5CC7985813601CB54334396E</key>
+		<key>FF218F4DC56557D359596B898B3436FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

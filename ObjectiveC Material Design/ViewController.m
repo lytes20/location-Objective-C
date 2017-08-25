@@ -22,6 +22,7 @@
 }
 @property (strong, nonatomic) DownPicker *areaPicker;
 @property (strong, nonatomic) DownPicker *supermarketPicker;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
 
 @end
 
@@ -89,6 +90,7 @@
             NSString *Country = [[NSString alloc]initWithString:placeMark.country];
             NSString *CountryArea = [NSString stringWithFormat:@"%@, %@", Area,Country];
             NSLog(@"%@",CountryArea);
+            _addressLabel.text = Address;
             
             NSMutableArray *mArea = [self createAreaArray];
             [mArea addObject:Area];            
@@ -100,7 +102,7 @@
         }
     }];
     
-    [locationManager stopUpdatingLocation];
+   //  [locationManager stopUpdatingLocation];
     
 }
 
@@ -178,6 +180,8 @@
 
 - (IBAction)btnContinueAction:(id)sender {
     
+   // UIViewController *anotherVC = [self.storyboard instantiateViewControllerWithIdentifier:@"CategoryVC"];
+   // [self presentViewController:anotherVC animated:NO completion:nil];
 }
 
 - (void) customeProgressHud{

@@ -9,7 +9,7 @@ target 'ObjectiveC Material Design' do
 	pod 'Material', '~> 2.0'
     pod 'DownPicker'
     pod 'SVProgressHUD'
-
+    pod 'AFNetworking', '~> 2.0'
   target 'ObjectiveC Material DesignTests' do
     inherit! :search_paths
     # Pods for testing
